@@ -1,10 +1,10 @@
-# project3-group3                             ![](https://img.shields.io/badge/license-null-orange?style=for-the-badge&logo=appveyor)
+# Plan a Hike                          ![](https://img.shields.io/badge/license-null-orange?style=for-the-badge&logo=appveyor)
 
 ## Description 
 -Looking to plan a hike? Look no further!
 
 ## Snap
-![Portfolio Screenshot](https://nikuk1.github.io/nikuk1-Trail-Search/assets/images/project-screenshot.png "Plan a Hike Screenshot")
+![Portfolio Screenshot](https://nikuk1.github.io/nikuk1-Trail-Search/assets/images/project_screenshot.png "Plan a Hike Screenshot")
 
 ## Installation
 -
@@ -24,6 +24,9 @@
 ## Credits
 U of A Web Development Boot Camp</br>
 nikuk1
+@Cassiecatt
+@cullinans1
+@nnorman15
 
 ## Table of Contents 
 * [Description](#description)
