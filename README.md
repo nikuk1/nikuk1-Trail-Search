@@ -4,7 +4,7 @@
 -Looking to plan a hike? Look no further!
 
 ## Snap
-![Uploading project_screenshot.png…]()
+![Portfolio Screenshot](https://nikuk1.github.io/nikuk1-Trail-Search/assets/images/project-screenshot.png "Plan a Hike Screenshot")
 
 ## Installation
 -
