@@ -1,0 +1,88 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Plan a Hike</title>
+  </head>
+  <body>
+    <header>
+    <a href="?dummy=$random#myanchor2"><h1>Plan a Hike</a></h1>
+    </header>
+
+    <br>
+
+    <div class="row backgroundimg">
+      <div class="medium-5 large-3 columns searchContainer">
+        <div class="callout_custom">
+          <form id="search-form">
+            <div class="row">
+              <div class="small-12 columns">
+                <label>Locate Your Hike</label>
+                <input type="list" list="searchDatalist" id="searchTxtInput" classs="searchTxtInput" placeholder="City, State" pattern="^[^0-9()]+$">
+                <datalist id="searchDatalist"></datalist>
+                <button type="submit" class="button" id="search-button">Search Now!</button>
+              </div>
+          </div>
+        </form>
+        </div>
+      </div>
+      <div><!-- empty div necessary to float searchContainer left --></div>
+    </div>
+
+    <!-- Forecast -->
+    <div class="row column" id="forecast"></div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal Content -->
+      <div class="modal-content">
+        <span class="close">X</span>
+        <h3>Trail Summary</h3>
+        <ul id="trailSummary"></ul>
+      </div>
+    </div>
+
+    <!-- End of Modal -->
+
+    <div class="row column">
+      <hr />
+    </div>
+
+    <div class="row column">
+      <p id="searchResultsTitle" class="lead"><!-- Search Results Title --></p>
+    </div>
+
+    <div class="row small-up-1 medium-up-2 large-up-3" id="cards"> 
+      <div class="entry">
+        <h2>Search a city for hikes in the area!</h2>
+      </div>
+      <div class="no-results" id="hidden">
+        <h2> No search results were found for your entry, please try again.</h2>
+      </div>
+    </div>
+
+    <div class="loadBtn row column" id="hidden">
+      <button class="button hollow expanded" id="load-more" onclick="addSliceValue()">Load More</button>
+    </div>
+
+    <footer>
+      <div class="row">
+        <img src="./assets/images/Difficulty.jpg" alt="Difficulty scale: (easy) green-bluegreen-blue-blueblack-black-dblack (hard)">
+        <p>Difficulty scale: easy ← hard</p>
+            <p style="font-size: larger; float: right;">All Rights Reserved</p>
+            <p>Group Members: Cassie, Nicole, Niku, Sammy</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
